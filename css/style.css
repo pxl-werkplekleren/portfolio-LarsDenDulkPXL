@@ -1,0 +1,104 @@
+* {
+    border-collapse: collapse;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(../assets/Free_Tech_Background.png);
+    background-size: cover;
+    color: #001540;
+}
+
+main {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    background-color: #527ED9;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 15px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    background-color: #527ED9;
+}
+header > div {
+    display: flex;
+    gap: 15px;
+}
+header fieldset {
+    margin: 5px;
+    border: 2px solid #001540;
+    padding: 5px;
+    border-radius: 5px;
+}
+header legend {
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: #527ED9;
+}
+nav ul {
+    list-style-position: inside;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+nav li {
+    background-color: #001540;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav li:hover {
+    box-shadow: 0 0 5px #001540;
+}
+/* HEADER */
+
+/* TABLE */
+table li {
+    list-style-position: inside;
+}
+table th {
+    background-color: #001540;
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #2EA5E3;
+}
+table tr:nth-child(odd) {
+    background-color: #78c5ef;
+}
+table thead
+{
+    background-color: #001540;
+    color: white;
+}
+/* TABLE */
+
+article {
+    background-color: palegreen;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
