@@ -59,9 +59,9 @@ header {
     margin-bottom: 15px;
     padding: 5px;
     background-color: #527ED9;
-    position: sticky;
-    top: -50px;
     box-shadow: 0 0 15px #001540;
+    /* position: sticky;
+    top: -50px; */
 }
 header > div {
     display: flex;
