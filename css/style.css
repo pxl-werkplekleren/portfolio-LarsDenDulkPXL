@@ -7,16 +7,22 @@
 
 }
 
+/* Algemeen */
 body {
     background-image: url(../assets/Free_Tech_Background.png);
     background-size: cover;
     color: #001540;
 }
 
+p {
+    color: white;
+}
+
 main {
-    /* display: flex;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 1rem; */
+    gap: 10px;
     background-color: #527ED9;
     width: 95%;
     margin: 0 auto;
@@ -24,12 +30,38 @@ main {
     padding: 5px;
 }
 
+article, section {
+    /* background-color: palegreen; */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+fieldset {
+    margin: 5px;
+    border: 2px solid #001540;
+    padding: 5px;
+    border-radius: 5px;
+}
+legend {
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    list-style-position: inside;
+}
+/* Algemeen */
+
 /* HEADER */
 header {
     margin-bottom: 15px;
     padding: 5px;
-    /* border-radius: 5px; */
     background-color: #527ED9;
+    position: sticky;
+    top: -50px;
+    box-shadow: 0 0 15px #001540;
 }
 header > div {
     display: flex;
@@ -50,6 +82,7 @@ header legend {
 
 nav a {
     color: white;
+    text-decoration: none;
 }
 nav a:hover {
     color: #527ED9;
@@ -71,9 +104,28 @@ nav li:hover {
 }
 /* HEADER */
 
+/* FOOTER */
+footer div {
+    background-color: #2EA5E3;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #001540;
+}
+/* FOOTER */
+
 /* TABLE */
-table li {
-    list-style-position: inside;
+table p {
+    color: #001540;
 }
 table th {
     background-color: #001540;
@@ -85,20 +137,39 @@ table tr:nth-child(even) {
 table tr:nth-child(odd) {
     background-color: #78c5ef;
 }
-table thead
-{
-    background-color: #001540;
-    color: white;
-}
-/* TABLE */
-
-article {
-    background-color: palegreen;
-    border-radius: 0.5rem;
-    padding: 0.25rem 0.5rem;
-}
-
 th, td {
     border: 1px solid black;
     padding: 5px;
 }
+/* TABLE */
+
+/* Competenties: Situeeringen, Activiteiten */
+.competenties ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.competenties h4 {
+    margin-bottom: 5px;
+}
+.competenties li {
+    background-color: #001540;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.competenties li:hover {
+    box-shadow: 0 0 5px #001540;
+}
+.competenties fieldset {
+    width: fit-content;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.competenties legend {
+    font-size: 24px;
+}
+/* Competenties: Situeeringen, Activiteiten */
