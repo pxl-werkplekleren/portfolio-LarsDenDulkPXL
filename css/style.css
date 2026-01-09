@@ -144,32 +144,32 @@ th, td {
 /* TABLE */
 
 /* Competenties: Situeeringen, Activiteiten */
-.competenties ul {
+.competenties ul, .opdrachten ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
-.competenties h4 {
+.competenties h4, .opdrachten h4 {
     margin-bottom: 5px;
 }
-.competenties li {
+.competenties li, .opdrachten li{
     background-color: #001540;
     color: white;
     padding: 5px;
     border-radius: 5px;
 }
-.competenties li:hover {
+.competenties li:hover, .opdrachten li:hover {
     box-shadow: 0 0 5px #001540;
 }
-.competenties fieldset {
+.competenties fieldset, .opdrachten fieldset {
     width: fit-content;
     gap: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.competenties legend {
+.competenties legend, .opdrachten legend {
     font-size: 24px;
 }
 /* Competenties: Situeeringen, Activiteiten */
